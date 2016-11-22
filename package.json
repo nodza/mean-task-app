@@ -1,0 +1,18 @@
+{
+  "name": "mean-task-app",
+  "version": "1.0.0",
+  "description": "A todo app built using the MEAN stack.",
+  "main": "server.js",
+  "repository": {
+    "url": "https://github.com/nodza/mean-task-app.git",
+    "type": "git"
+  },
+  "author": "Noel Hwande <noel.hwande@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "ejs": "^2.5.2",
+    "express": "^4.14.0",
+    "mongojs": "^2.4.0"
+  }
+}
