@@ -1,0 +1,49 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/nodza/.nvm/versions/node/v5.12.0/bin/node',
+1 verbose cli   '/Users/nodza/.nvm/versions/node/v5.12.0/bin/npm',
+1 verbose cli   'run',
+1 verbose cli   'tsc',
+1 verbose cli   '-w' ]
+2 info using npm@3.8.6
+3 info using node@v5.12.0
+4 verbose run-script [ 'pretsc', 'tsc', 'posttsc' ]
+5 info lifecycle mean-task-app@1.0.0~pretsc: mean-task-app@1.0.0
+6 silly lifecycle mean-task-app@1.0.0~pretsc: no script for pretsc, continuing
+7 info lifecycle mean-task-app@1.0.0~tsc: mean-task-app@1.0.0
+8 verbose lifecycle mean-task-app@1.0.0~tsc: unsafe-perm in lifecycle true
+9 verbose lifecycle mean-task-app@1.0.0~tsc: PATH: /Users/nodza/.nvm/versions/node/v5.12.0/lib/node_modules/npm/bin/node-gyp-bin:/Users/nodza/Repos/Angular/mean-task-app/client/node_modules/.bin:/Users/nodza/.nvm/versions/node/v5.12.0/bin:/Users/nodza/.nvm/versions/node/v5.12.0/bin:/Users/nodza/.rvm/gems/ruby-2.2.4/bin:/Users/nodza/.rvm/gems/ruby-2.2.4@global/bin:/Users/nodza/.rvm/rubies/ruby-2.2.4/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/nodza/.rvm/bin
+10 verbose lifecycle mean-task-app@1.0.0~tsc: CWD: /Users/nodza/Repos/Angular/mean-task-app/client
+11 silly lifecycle mean-task-app@1.0.0~tsc: Args: [ '-c', 'tsc' ]
+12 silly lifecycle mean-task-app@1.0.0~tsc: Returned: code: 2  signal: null
+13 info lifecycle mean-task-app@1.0.0~tsc: Failed to exec tsc script
+14 verbose stack Error: mean-task-app@1.0.0 tsc: `tsc`
+14 verbose stack Exit status 2
+14 verbose stack     at EventEmitter.<anonymous> (/Users/nodza/.nvm/versions/node/v5.12.0/lib/node_modules/npm/lib/utils/lifecycle.js:239:16)
+14 verbose stack     at emitTwo (events.js:100:13)
+14 verbose stack     at EventEmitter.emit (events.js:185:7)
+14 verbose stack     at ChildProcess.<anonymous> (/Users/nodza/.nvm/versions/node/v5.12.0/lib/node_modules/npm/lib/utils/spawn.js:24:14)
+14 verbose stack     at emitTwo (events.js:100:13)
+14 verbose stack     at ChildProcess.emit (events.js:185:7)
+14 verbose stack     at maybeClose (internal/child_process.js:850:16)
+14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:215:5)
+15 verbose pkgid mean-task-app@1.0.0
+16 verbose cwd /Users/nodza/Repos/Angular/mean-task-app/client
+17 error Darwin 16.3.0
+18 error argv "/Users/nodza/.nvm/versions/node/v5.12.0/bin/node" "/Users/nodza/.nvm/versions/node/v5.12.0/bin/npm" "run" "tsc" "-w"
+19 error node v5.12.0
+20 error npm  v3.8.6
+21 error code ELIFECYCLE
+22 error mean-task-app@1.0.0 tsc: `tsc`
+22 error Exit status 2
+23 error Failed at the mean-task-app@1.0.0 tsc script 'tsc'.
+23 error Make sure you have the latest version of node.js and npm installed.
+23 error If you do, this is most likely a problem with the mean-task-app package,
+23 error not with npm itself.
+23 error Tell the author that this fails on your system:
+23 error     tsc
+23 error You can get information on how to open an issue for this project with:
+23 error     npm bugs mean-task-app
+23 error Or if that isn't available, you can get their info via:
+23 error     npm owner ls mean-task-app
+23 error There is likely additional logging output above.
+24 verbose exit [ 1, true ]
